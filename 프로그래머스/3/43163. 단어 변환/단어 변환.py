@@ -15,6 +15,5 @@ def solution(begin, target, words):
                 if words[i] == target:
                     return cnt+1
                 queue.append([words[i],cnt+1])
-                words[i] = ""
             
     return 0
